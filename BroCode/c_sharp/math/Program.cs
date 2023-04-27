@@ -39,7 +39,7 @@
 
 //? Rndom numbers
 
-Random random = new();
+//Random random = new();
 
 //int num = random.Next(1, 7);
 //double num = random.NextDouble();
