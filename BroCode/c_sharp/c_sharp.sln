@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "math", "math\math.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "string", "string\string.csproj", "{89D731F0-92DA-4483-9609-206C22AFBACF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if_statements", "if_statements\if_statements.csproj", "{0C8FC89D-375D-483D-B0A4-06461D0AB140}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{89D731F0-92DA-4483-9609-206C22AFBACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89D731F0-92DA-4483-9609-206C22AFBACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89D731F0-92DA-4483-9609-206C22AFBACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C8FC89D-375D-483D-B0A4-06461D0AB140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C8FC89D-375D-483D-B0A4-06461D0AB140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C8FC89D-375D-483D-B0A4-06461D0AB140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C8FC89D-375D-483D-B0A4-06461D0AB140}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
