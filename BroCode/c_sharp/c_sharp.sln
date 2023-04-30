@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "string", "string\string.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if_statements", "if_statements\if_statements.csproj", "{0C8FC89D-375D-483D-B0A4-06461D0AB140}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logical_operators", "logical_operators\logical_operators.csproj", "{0E6F4C60-98E4-47A2-B628-E1BB5BD2B63D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{0C8FC89D-375D-483D-B0A4-06461D0AB140}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C8FC89D-375D-483D-B0A4-06461D0AB140}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C8FC89D-375D-483D-B0A4-06461D0AB140}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E6F4C60-98E4-47A2-B628-E1BB5BD2B63D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E6F4C60-98E4-47A2-B628-E1BB5BD2B63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E6F4C60-98E4-47A2-B628-E1BB5BD2B63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E6F4C60-98E4-47A2-B628-E1BB5BD2B63D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
