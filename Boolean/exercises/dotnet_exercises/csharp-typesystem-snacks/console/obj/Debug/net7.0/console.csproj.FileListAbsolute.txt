@@ -1,0 +1,15 @@
+/home/ludwig/Boolean/exercises/dotnet_exercises/csharp-typesystem-snacks/console/bin/Debug/net7.0/console
+/home/ludwig/Boolean/exercises/dotnet_exercises/csharp-typesystem-snacks/console/bin/Debug/net7.0/console.deps.json
+/home/ludwig/Boolean/exercises/dotnet_exercises/csharp-typesystem-snacks/console/bin/Debug/net7.0/console.runtimeconfig.json
+/home/ludwig/Boolean/exercises/dotnet_exercises/csharp-typesystem-snacks/console/bin/Debug/net7.0/console.dll
+/home/ludwig/Boolean/exercises/dotnet_exercises/csharp-typesystem-snacks/console/bin/Debug/net7.0/console.pdb
+/home/ludwig/Boolean/exercises/dotnet_exercises/csharp-typesystem-snacks/console/obj/Debug/net7.0/console.csproj.AssemblyReference.cache
+/home/ludwig/Boolean/exercises/dotnet_exercises/csharp-typesystem-snacks/console/obj/Debug/net7.0/console.GeneratedMSBuildEditorConfig.editorconfig
+/home/ludwig/Boolean/exercises/dotnet_exercises/csharp-typesystem-snacks/console/obj/Debug/net7.0/console.AssemblyInfoInputs.cache
+/home/ludwig/Boolean/exercises/dotnet_exercises/csharp-typesystem-snacks/console/obj/Debug/net7.0/console.AssemblyInfo.cs
+/home/ludwig/Boolean/exercises/dotnet_exercises/csharp-typesystem-snacks/console/obj/Debug/net7.0/console.csproj.CoreCompileInputs.cache
+/home/ludwig/Boolean/exercises/dotnet_exercises/csharp-typesystem-snacks/console/obj/Debug/net7.0/console.dll
+/home/ludwig/Boolean/exercises/dotnet_exercises/csharp-typesystem-snacks/console/obj/Debug/net7.0/refint/console.dll
+/home/ludwig/Boolean/exercises/dotnet_exercises/csharp-typesystem-snacks/console/obj/Debug/net7.0/console.pdb
+/home/ludwig/Boolean/exercises/dotnet_exercises/csharp-typesystem-snacks/console/obj/Debug/net7.0/console.genruntimeconfig.cache
+/home/ludwig/Boolean/exercises/dotnet_exercises/csharp-typesystem-snacks/console/obj/Debug/net7.0/ref/console.dll

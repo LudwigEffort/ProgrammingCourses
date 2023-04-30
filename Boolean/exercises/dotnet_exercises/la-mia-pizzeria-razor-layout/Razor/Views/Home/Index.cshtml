@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    string name = "Ludwig";
+    string lastname = "Effort";
+
+    int n = 8;
+    int sum = 0;
+
+    for (int i = 0; i < n; i++)
+    {
+        sum += i;
+    }
+
+    string quote = "nel mezzo del cammin di nostra vita";
+    int n_char = 0;
+
+    foreach (char char_a in quote) {
+        if (char_a == 'a'){
+            n_char++;
+        }
+    }
+
+    Random rnd = new Random();
+    List<int> numbers = new List<int>();
+    List<int> numbersAfter = new List<int>();
+    
+    for (int i = 0; i < 20; i++) {
+        int number = rnd.Next(1, 91);
+        numbers.Add(number);
+    }
+
+    foreach (int number in numbers) {
+        if (number >= 20 && number <= 70){
+            //int numberAdd = number;
+            numbersAfter.Add(number);
+        }
+    }
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div>
+        <h1>Snack 1</h1>
+        <div>@name</div>
+        <div>@lastname</div>
+    </div>
+    <div>
+        <h1>Snack 2</h1>
+        <div>@sum</div>
+    </div>
+    <div>
+        <h1>Snack 3</h1>
+        <div>@n_char</div>
+    </div>
+    <div>
+        <h1>Snack 4</h1>
+        <h2>Numbers:</h2>
+        <ul>
+            @foreach (var item in numbersAfter)
+            {
+                <li>@item</li>
+            }
+        </ul>
+    </div>
+</div>

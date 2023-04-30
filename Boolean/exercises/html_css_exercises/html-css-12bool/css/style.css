@@ -1,0 +1,40 @@
+section {
+    margin: 1rem 0;
+}
+
+h1  {
+    margin-bottom: 1rem;
+}
+
+.row    {
+    background-color: pink;
+    border: 2px solid lightcoral;
+    padding: 1rem;
+}
+
+[class*="col"]  {
+    background-color: blue;
+    border: 2px solid cyan;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+p   {
+    color: white;
+}
+
+[class*="nested"]  {
+    background-color: lightgreen;
+    border: 2px solid white;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+[class*="nested"] p {
+    font-size: 9pt;
+}

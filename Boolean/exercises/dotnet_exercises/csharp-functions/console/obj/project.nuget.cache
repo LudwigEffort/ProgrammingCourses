@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wUptHasQDRToXM3Qpt9Sg8GvpYAOURLG5yx48EJhpM9WIpC1k+gz5EzYpUUExoEW6zsgnIkf/1x6BYNB+AJLSQ==",
+  "success": true,
+  "projectFilePath": "/home/ludwig/Boolean/exercises/dotnet_exercises/csharp-functions/console/console.csproj",
+  "expectedPackageFiles": [
+    "/home/ludwig/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.3/microsoft.aspnetcore.app.ref.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

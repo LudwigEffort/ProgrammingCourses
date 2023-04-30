@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	margin-top: 4rem; /* to fix the fixed navbar height */
+}
+
+/* general */
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+/* header */
+header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	background-color: #FF6900;
+	z-index: 99;
+}
+
+.navbar-top {
+	display: flex;
+	justify-content: space-between;
+	height: 4rem;
+}
+
+.navbar-top ul {
+	display: flex;
+	list-style: none;
+}
+
+.navbar-top a {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	margin: 0 1em;
+	text-decoration: none;
+}
+
+.navbar-top .first-a {
+	margin-left: 0;
+}
+
+.navbar-top .last-a {
+	margin-right: 0;
+}
+
+.navbar-top a:hover {
+	color: salmon;
+	text-decoration: underline;
+}
+
+.navbar-top img {
+	height: 100%;
+	padding: 1rem 0;
+}
+
+/* main cards */
+
+main {
+	padding-top: 3rem;
+}
+
+main .container {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 1rem;
+	row-gap: 4rem;
+}
+
+/* Card */
+
+.card {
+	width: 30%;
+	flex: 1 1 auto;
+}
+
+.card img {
+	display: block;
+}
+
+.card h2 {
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+
+.card .last-price {
+	color: red;
+	font-weight: bold;
+}
+
+.card .first-price {
+	text-decoration: line-through;
+}
+
+.card .img-area {
+	position: relative;
+}
+
+.card .heart {
+	position: absolute;
+	padding: .4em;
+	top: 10px;
+	right: 0;
+	background-color: white;
+	font-size: 1.4rem;
+	cursor: pointer;
+}
+
+.card .heart:hover {
+	color: red;
+}
+
+.card .tags {
+	display: flex;
+	gap: .5rem;
+	position: absolute;
+	left: 0;
+	bottom: 20px;
+}
+
+.card .tag {
+	padding: .5em;
+	color: white;
+	font-weight: bold;
+}
+
+.card .tag-discount {
+	background-color: red;
+}
+
+.card .tag-info {
+	background-color: green;
+}
+
+.card .img-above {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.card:hover .img-above {
+	z-index: -1;
+}

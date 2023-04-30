@@ -1,0 +1,94 @@
+#+title: db Videogames
+#+description:
+#+author: Ludovico Sforzo
+#+setupfile: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+* DB data type
+** Tables
+*** Software houses table
+| Name       | Type        | Attributes       | Index |
+|------------+-------------+------------------+-------|
+| name       | varchar(50) | not null, unique |       |
+| iva number | varchar(11) | not null         |       |
+| city       | varchar(50) | not null         |       |
+| country    | varchar(50) | not null         |       |
+*** Videogames table
+| Name              | Type        | Attributes                 | Index |
+|-------------------+-------------+----------------------------+-------|
+| name              | varchar(50) | not null                   |       |
+| plot              | text        |                            |       |
+| relise date       | datetime    | not null                   |       |
+| software_house    | varchar(50) | not null,                  |       |
+| software_house_id | bigint      | not null, unique, unsigned | FK    |
+*** Platforms table
+| Name | Type        | Attributes       | Index |
+|------+-------------+------------------+-------|
+| name | varchar(50) | not null, unique |       |
+*** Categories table
+| Name | Type        | Attributes       | Index |
+|------+-------------+------------------+-------|
+| name | varchar(50) | not null, unique |       |
+*** PEGI table
+| Name | Type        | Attributes       | Index |
+|------+-------------+------------------+-------|
+| name | varchar(50) | not null, unique |       |
+*** Tournamets table
+| Name | Type        | Attributes       | Index |
+|------+-------------+------------------+-------|
+| name | varchar(50) | not null, unique |       |
+| year | year        | not null         |       |
+| city | varchar(50) | not null         |       |
+*** Players table
+| Name     | Type        | Attributes       | Index |
+|----------+-------------+------------------+-------|
+| name     | varchar(50) | not null         |       |
+| lastname | varchar(50) | not null         |       |
+| nickname | varchar(50) | not null, unique |       |
+| city     | varchar(50) | not null         |       |
+*** Reviews table
+| Name      | Type        | Attributes                 | Index |
+|-----------+-------------+----------------------------+-------|
+| title     | varchar(50) | not null                   |       |
+| text      | text        | not null                   |       |
+| rating    | tinyint     | not null                   |       |
+| player_id | bigint      | not null, unique, unsigned | FK    |
+*** Awards table
+| Name | Type       | Attributes       | Index |
+|------+------------+------------------+-------|
+| name | varcah(50) | not null, unique |       |
+** Pivot tables
+*** platform_videogame
+| Name         | Type   | Attributes                 | Index |
+|--------------+--------+----------------------------+-------|
+| platform_id  | bigint | not null, unique, unsigned | PK    |
+| videogame_id | bigint | not null, unique, unsigned | PK    |
+*** category_videogame
+| Name         | Type   | Attributes                 | Index |
+|--------------+--------+----------------------------+-------|
+| category_id  | bigint | not null, unique, unsigned | PK    |
+| videogame_id | bigint | not null, unique, unsigned | PK    |
+*** PEGI_videogame
+| Name         | Type   | Attributes                 | Index |
+|--------------+--------+----------------------------+-------|
+| PEGI_id      | bigint | not null, unique, unsigned | PK    |
+| videogame_id | bigint | not null, unique, unsigned | PK    |
+*** tournament_videogame
+| Name          | Type   | Attributes                 | Index |
+|---------------+--------+----------------------------+-------|
+| tournament_id | bigint | not null, unique, unsigned | PK    |
+| videogame_id  | bigint | not null, unique, unsigned | PK    |
+*** review_videogame
+| Name         | Type   | Attributes                 | Index |
+|--------------+--------+----------------------------+-------|
+| review_id    | bigint | not null, unique, unsigned | PK    |
+| videogame_id | bigint | not null, unique, unsigned | PK    |
+*** award_videogame
+| Name         | Type   | Attributes                 | Index |
+|--------------+--------+----------------------------+-------|
+| award_id     | bigint | not null, unique, unsigned | PK    |
+| videogame_id | bigint | not null, unique, unsigned | PK    |
+*** player_tournament
+| Name          | Type   | Attributes                 | Index |
+|---------------+--------+----------------------------+-------|
+| player_id     | bigint | not null, unique, unsigned | PK    |
+| tournament_id | bigint | not null, unique, unsigned | PK    |

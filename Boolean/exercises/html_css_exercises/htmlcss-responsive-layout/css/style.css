@@ -1,0 +1,271 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_header  {
+    margin: 0 auto;
+}
+
+.container  {
+    margin: 1rem auto;
+}
+
+.button {
+    background-color: white;
+    border-radius: 5rem;
+}
+
+
+/* General style */
+
+.card_container {
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+/* .first_section.container    {
+    margin: 1rem;
+} */
+
+/* Header */
+
+.nav_top    {
+    background-color: #0084FD;
+}
+
+.nav_top_container   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 0;
+}
+
+.nav_top_container  {
+    padding: 1rem;
+}
+
+.nav_top_container ul   {
+    display: none;
+}
+
+/* Main */
+
+/* First section */
+
+.first_cards_containers img {
+    width: 100%;
+}
+
+.first_cards_containers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem
+    ;
+}
+
+/* .first_cards_containers .card_container {
+    background-color: #B5DDFF;
+    flex: 1 1 100%;
+} */
+
+.first_button   {
+    background-color: #0084FD;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+/* Cards style */
+
+/* First card */
+
+.card_container {
+    background-color: #B5DDFF;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.text_card_container h1 {
+    color: #0084FD;
+    font-size: 1.5rem;
+}
+
+.card_container.first_card {
+    padding: 1rem;
+}
+
+/* .text_card_container p{
+    font-size: 0.8rem;
+} */
+
+.card_container .text_card_container    {
+    flex: 1 0 100%;
+}
+
+.card_container .img_card_container    {
+    flex: 1 0 50%;
+}
+
+/* Others card */
+
+.item_container {
+    text-align: center;
+}
+
+.item_container i {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.item_container h1  {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Second section */
+
+.second_section {
+    background-color: #9792E4;
+}
+
+.second_section_container   {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card_second_section_container  {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.second_card_style {
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.img_box_container img {
+    width: 100%;
+}
+
+.second_card_style .text_box_container  {
+    text-align: center;
+}
+
+.second_btn_style   {
+    background-color: #9792E4;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    border-radius: 5rem;
+}
+
+.img_box_container  {
+    flex: 1 1 50%;
+}
+
+.text_box_container {
+    flex: 1 1 50%;
+}
+
+
+
+/* Desktop */
+
+@media screen and (min-width: 811px) {
+
+    .container  {
+        max-width: 1200px;
+        margin: 1rem auto;
+    }
+
+    /* Header */
+
+    .nav_top_container ul {
+        display: flex;
+        list-style: none;
+        height: 100%;
+    }
+
+    /* .nav_top_container .nav_links:hover {
+    background-color: aquamarine;
+    } */
+   
+    
+    .nav_top_container .nav_links  {
+        text-decoration: none;
+        padding: 0 1rem;
+        color: white;
+        font-size: 1.25rem;
+    }
+    
+    .nav_top_container .nav_btn    {
+        color: black;
+        padding: 0 0.5rem;
+    }
+        
+    .hamburger   {
+        display: none;
+    }
+
+    /* Main */
+
+    .card_container .text_card_container    {
+        flex: 1 0 60%;
+    }
+    
+    .card_container .img_card_container    {
+        flex: 1 0 40%;
+    }
+
+    .first_card.card_container  {
+        flex: 1 0 60%;
+    }
+
+    .card_container {
+        flex-basis: calc((100% - 2rem) / 3);
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+}
+
+/* Tablet */
+
+@media screen and (min-width: 376px) and (max-width: 810px) {
+
+    body    {
+        background-color: lightpink;
+    }
+
+    .container  {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    /* Main */
+
+    .first_card.card_container  {
+        flex: 1 0 60%;
+    }
+
+    .card_container {
+        flex-basis: calc((100% - 2rem) / 3);
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+}

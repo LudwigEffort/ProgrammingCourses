@@ -1,0 +1,13 @@
+nav {
+    background-color: #2E3A46;
+    padding: 0 0;
+}
+
+main {
+    background-color: #1E2D3B;
+}
+
+.card.card-style {
+    background-color: #2E3A46;
+    color: white;
+}

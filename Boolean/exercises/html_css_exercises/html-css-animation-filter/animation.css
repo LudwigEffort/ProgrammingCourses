@@ -1,0 +1,171 @@
+/* Exercise 1 */
+
+.ex-1-square    {
+    transition:  2s;
+}
+
+.ex-1-square:hover  {
+    background-color: red;
+}
+
+/* Exercise 2 */
+
+.ex-2-square    {
+    transition: 2s;
+}
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+/* Exercise 3 */
+
+.ex-3-square    {
+    transition: 2s;
+}
+
+.ex-3-square:hover  {
+    border-radius: 25rem;
+}
+
+/* Exercise 4 */
+
+.ex-4-square    {
+    transition: 2s;
+}
+
+.ex-4-square:hover  {
+    opacity: 0;
+}
+
+/* Exercise 5 */
+
+.ex-5-square    {
+    transition: 2s;
+}
+
+.ex-5-square:active  {
+    transform: scale(.5);
+}
+
+.ex-5-square:hover  {
+    transform: scale(2);
+}
+
+/* Exercise 6 */
+
+.ex-6-img   {
+    transition: 2s;
+}
+
+.ex-6-img:hover   {
+    filter: grayscale(var(--value,100%));
+}
+
+/* Exercise 7 */
+
+.ex-7-img   {
+    transition: 4s;
+}
+
+.ex-7-img:hover   {
+    filter: grayscale(var(--value,50%));
+    filter: sepia(var(--value, 50%));
+}
+
+/* Exercise 8 */
+
+.ex-8-img   {
+    transition: 4s;
+}
+
+.ex-8-img:hover   {
+    filter: grayscale(var(--value, 100%));
+    filter: blur(1px);
+    border-radius: 5rem;
+}
+
+/* Exercise 9 */
+
+.ex-9-img   {
+    transition: 4s;
+}
+
+.ex-9-img:hover   {
+    filter: grayscale(var(--value, 100%));
+    border-radius: 5rem;
+    transform: scale(1.5);
+}
+
+/* Exercise 10 */
+
+.ex-10-icon {
+    animation: spin_icon_10 2s linear infinite;
+}
+@keyframes  spin_icon_10 {
+    0%  {
+        transform: rotate(1turn);
+    }
+}
+
+/* Exercise 11 */
+
+.ex-11-icon:hover {
+    animation: spin_icon_11 5s linear infinite;
+}
+@keyframes  spin_icon_11 {
+    from    {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(270deg);}
+}
+
+/* Exercise 12 */
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: move_top_btn 2s linear;
+}
+
+@keyframes move_top_btn {
+    0%  {
+        left: 10%;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+    100%  {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: move_bottom_btn 2s linear;
+}
+
+@keyframes move_bottom_btn {
+    0%  {
+        right: 20%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100%  {
+        right: 20%;
+    }
+}
+
+/* Exercise 13 */
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: move_top_btn_13 2s linear;
+}
+
+@keyframes move_top_btn_13 {
+
+}
+
+/* .ex-13-button:hover .ex-13-bottom-white {
+    animation: move_bottom_btn_13 2s linear;
+}
+
+@keyframes move_bottom_btn_13 {
+
+} */

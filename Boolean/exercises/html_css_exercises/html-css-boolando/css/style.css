@@ -1,0 +1,166 @@
+/* Border reset */
+
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body    {
+    background-color: antiquewhite;
+}
+
+.fix_size_img_3  {
+    width: 640px;
+    height: 924px;
+}
+
+
+/* Header */
+
+.nav_bar_container  {
+    color: white;
+    background-color: orangered;
+    height: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-size: 16pt;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.img_logo {
+    width: 8em;
+}
+
+/* Main */
+
+.discounted_price   {
+    color: red;
+}
+
+.cutted_prices  {
+    text-decoration: line-through;
+    margin-left: 1em;
+}
+
+.heart  {
+    background-color: white;
+    padding: 1em;
+
+
+    position: relative;
+    bottom: 60em;
+    left: 35em;
+    z-index: 2;
+}
+
+main    {
+    margin-top: 5%;
+}
+
+.section_container  {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: aquamarine;
+    height: auto;
+    color: black;
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.img_container  {
+    flex-basis: calc(100%/3);
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 640px;
+    max-height: 924px;
+
+    margin-bottom: 5%;
+}
+
+.img_1  {
+    background-image: url(../img/1b.webp);
+    background-repeat: no-repeat;
+}
+
+.img_2  {
+    background-image: url(../img/2b.webp);
+    background-repeat: no-repeat;
+}
+
+.img_3  {
+    background-image: url(../img/3b.webp);
+    background-repeat: no-repeat;
+    width: 792px;
+    height: 1144px;
+}
+
+.img_4  {
+    background-image: url(../img/4b.webp);
+    background-repeat: no-repeat;
+}
+
+.img_5  {
+    background-image: url(../img/5b.webp);
+    background-repeat: no-repeat;
+}
+
+.img_6  {
+    background-image: url(../img/6b.webp);
+    background-repeat: no-repeat;
+}
+
+.img_transparency:hover    {
+    opacity: 0;
+}
+
+/* Footer */
+
+.footer_container   {
+    background-color: #1a1a1a;
+    color: white;
+    height: auto; 
+    
+    font-size: 16pt;
+}
+
+.footer_nav_bar_container  {
+    margin-left: 10%;
+    margin-right: 10%;
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.section_pt_1   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section_pt_2   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer_social_icons    {
+    font-size: 1.5em;
+}

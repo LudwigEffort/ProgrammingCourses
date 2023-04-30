@@ -1,0 +1,254 @@
+body    {
+    font-family: 'Roboto', sans-serif;
+}
+
+.top_logo    {
+    background-color: black;
+    padding: 1rem;
+}
+
+.top_logo img    {
+    height: 30px;
+}
+
+.search_logo    {
+    display: inline-block;
+    width: 100%;
+}
+
+.jumbo  {
+    padding: 200px 0 50px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbo_it {
+    padding: 100px 0 100px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg_new_releases    {
+    background-color: #1E1E1E;
+}
+
+.second_section_grid img {
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.bg_playplus    {
+    background-color: #BEBCBB;
+}
+
+.bg_play_now    {
+    margin-top: 1rem;
+    background-color: #161C3B;
+}
+
+.bg_footer  {
+    background-color: #00439C;
+}
+
+.footer_ps_logo {
+    font-size: 1.5rem;
+}
+
+.footer_ps_logo img {
+    width: 100px;
+    margin-bottom: 2rem;
+}
+
+.bg_footer li {
+    list-style: none;
+}
+
+.bg_footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer_sie_logo img    {
+    max-width: 20%;
+    margin-bottom: 1rem;
+}
+
+/* Buttons */
+
+nav .btn-primary    {
+    background-color: #363636;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #363636;
+}
+
+nav .btn:hover  {
+    background-color: #363636;
+    border: 2px solid white;
+    box-shadow: 0px 1px 4px #363636, 0px 0px 0px 3px #363636;
+}
+
+.jumbo .btn-secondary    {
+    background-color: #CD3D0F;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #CD3D0F;
+}
+
+.jumbo .btn:hover  {
+    background-color: #CD3D0F;
+    border: 2px solid black;
+    box-shadow: 0px 1px 4px #CD3D0F, 0px 0px 0px 3px #CD3D0F;
+}
+
+.first_section .btn-secondary    {
+    background-color: #2D64E6;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #2D64E6;
+}
+
+.first_section .btn:hover  {
+    background-color: #2D64E6;
+    border: 2px solid white;
+    box-shadow: 0px 1px 4px #363636, 0px 0px 0px 3px #363636;
+}
+
+.second_section .btn-secondary    {
+    background-color: #CD3D0F;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #CD3D0F;
+}
+
+.second_section .btn:hover  {
+    background-color: #CD3D0F;
+    border: 2px solid #363636;
+    box-shadow: 0px 1px 4px #CD3D0F, 0px 0px 0px 3px #CD3D0F;
+}
+
+.third_section .ps4_container .btn-secondary    {
+    background-color: #2D64E6;
+    color: white;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #2D64E6;
+}
+
+.third_section .ps4_container .btn:hover  {
+    background-color: #2D64E6;
+    border: 2px solid white;
+    box-shadow: 0px 1px 4px #363636, 0px 0px 0px 3px #363636;
+}
+
+.third_section .btn-secondary    {
+    background-color: #D9DADC;
+    color: #2D64E6;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #D9DADC;
+}
+
+.third_section .btn:hover  {
+    background-color: #D9DADC;
+    border: 2px solid #D9DADC;
+    box-shadow: 0px 1px 4px #D9DADC, 0px 0px 0px 3px #D9DADC;
+}
+
+.fourth_section .btn-secondary    {
+    background-color: #D9DADC;
+    color: #1E1E1E;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #D9DADC;
+}
+
+.fourth_section .btn:hover  {
+    background-color: #D9DADC;
+    border: 2px solid #1E1E1E;
+    box-shadow: 0px 1px 4px #D9DADC, 0px 0px 0px 3px #D9DADC;
+}
+
+/* Dropdown menu */
+
+.dropdown {
+    position: static;
+}
+
+.dropdown-menu[data-bs-popper]  {
+    margin-top: 0;
+    left: 0;
+    right: 0;
+}
+
+.dropdown-menu {
+    border: none;
+    border-radius: 0;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flex.card_icons a:hover    {
+    cursor: pointer;
+    /* border: 1px solid lightgrey; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.flex img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: block;
+}
+
+.links a {
+    color: black;
+}
+
+.links li   {
+    margin: 0 1rem;
+    list-style: outside;
+    color: #00439C;
+}
+
+
+/* Cards */
+
+.content    {
+    transition: transform 1s; 
+}
+
+.content img {
+    border-radius: calc(1rem - 6px);   /* Da chiedere */
+}
+
+.content.active {
+    border-radius: 1rem;
+    padding: 2px;
+    border: 4px solid #2D64E6;
+    
+}
+
+.content:hover  {
+    cursor: pointer;
+    transform: translateY(-20px);
+}
+
+.ps5_cards_container .card_container {
+    opacity: 60%;  
+}
+
+.ps5_cards_container .card_container.active {
+    border-bottom: 2px solid #00439C;
+}
+
+.ps5_cards_container .card_container:hover {
+    cursor: pointer;
+    opacity: 100%;
+    border-bottom: 2px solid #00439C;
+}

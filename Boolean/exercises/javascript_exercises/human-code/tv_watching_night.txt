@@ -1,0 +1,36 @@
+
+
+Scegliere cosa guardare su Netflix
+Che barba, che noia, che noia, che barba!
+
+
+
+
+
+START
+
+accendo la TV 
+seleziono un servizio di streaming
+
+siamo soli?
+
+SE siamo soli (si) 
+	- guardare la watch list
+	SE trovo un film/serie da guardare
+		- seleziono film/serie
+		- setto la lingua/sottotitoli
+	ALTRIMENTI se non trovo nulla da guardare cambio piattaforma
+	FINE SE	
+
+ALTRIMENTI se siamo più persone (no)
+	- scegliamo tra un film o una serie
+	- selezioniamo il genere 
+	- scorro fino a trovare qualcosa
+	SE trovo un film/serie da guardare
+		- seleziono film/serie
+		- setto la lingua/sottotitoli
+	ALTRIMENTI se non troviamo nulla da guardare cambio pittaforma
+	FINE SE
+FINE SE
+
+FINE

@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body    {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    margin-bottom: 2rem;
+}
+
+.squares-container  {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background-color: lightgreen;
+    padding: 1rem;
+}
+
+.fizz {
+    background-color: pink;
+}
+
+.buzz {
+    background-color: lightskyblue;
+}
+
+.fizz_buzz {
+    background-color: lightcoral;
+}

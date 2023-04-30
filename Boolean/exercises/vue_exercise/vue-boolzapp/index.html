@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue-boolzapp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="container" id="root">
+
+        <div class="side-bar-container">
+            <div class="user-info-container">
+                <div class="name">
+                    <img src="img/avatar_io.jpg" alt="">
+                    <span>Sofia</span>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-circle-notch"></i>
+                    <i class="fa-solid fa-message"></i>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+            <div class="notifications-container">
+                <div class="noti-icon">
+                    <i class="fa-solid fa-bell-slash"></i>
+                </div>
+                <div  class="noti-text">
+                    <p>Receive notifications of new messages</p>
+                    <a href="">Turn on desktop notifications</a>
+                </div>
+            </div>
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" @keyup="searchContacts()" v-model="searchString">
+            </div>
+            <div class="contacts-container">
+
+                <!-- Contacts -->
+                <div 
+                    v-for="(eleContact, i) in arrContacts" 
+                    :key="eleContact.avatar"
+                    class="contact"
+                    :class="arrContacts[i].visible === false ? 'contact-out' : 'contact-in'"
+                    @click="setActiveIndex(i)">
+
+                    <div class="contact-info">
+                        <img :src="'img/avatar' + eleContact.avatar + '.jpg'" alt="">
+                        <div class="contact-text">
+                            <h4>{{ eleContact.name }}</h4>
+                            <p>{{ arrContacts[activeIndex].messages.length }}</p>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p>12:00</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-container">
+            <div class="contact-chat-bar">
+                <div class="contact-info">
+                    <img 
+                    :src="'img/avatar' + arrContacts[activeIndex].avatar + '.jpg'" 
+                    :alt="arrContacts[activeIndex].name">
+                    <div class="contact-tex">
+                        <h4>{{ arrContacts[activeIndex].name }}</h4>
+                        <p>Last access: {{ arrContacts[activeIndex].messages.length }}</p>
+                    </div>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-paperclip"></i>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+            <div class="chat">
+                <div 
+                    v-for="objMessage in arrContacts[activeIndex].messages" 
+                    class="message"
+                    :class="'message-' + objMessage.status">
+                    {{ objMessage.message }}
+                    <div class="send-date">
+                        {{ objMessage.date }}
+                    </div>
+                    <i 
+                        class="fa-solid fa-chevron-down message-menu-toggler"
+                        v-model="showToggle"
+                        @click="showToggle = !showToggle">
+                    </i>
+                    <ul class="message-menu" v-show="showToggle">
+                        <li>Message info</li>
+                        <li @click="deleteMessage()">Message delete</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="write-bar">
+                <i class="fa-regular fa-face-smile"></i>
+                <input 
+                    type="text" 
+                    placeholder="Message"
+                    v-model="newMessage"
+                    @keyup.enter="sendMessage">
+                <i class="fa-solid fa-microphone"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

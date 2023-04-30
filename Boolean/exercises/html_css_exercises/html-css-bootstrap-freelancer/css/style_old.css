@@ -1,0 +1,45 @@
+.bg-nav-top {
+    background-color: #2C3E50;
+}
+
+header {
+    color: white;
+}
+
+.bg-bottom-nav  {
+    background-color: #1ABC9C;
+}
+
+/* .img-container  {
+    max-width: 50%;
+    
+} */
+
+.border-rounded {
+    height: 300px;
+    border-radius: 1rem;
+}
+
+.bg-home    {
+    background-color: #BA4B63;
+}
+
+.bg-cake    {
+    background-color: #1EA4B6;
+}
+
+.bg-circus  {
+    background-color: #140F0F;
+}
+
+.bg-snes    {
+    background-color: #1C83C1;
+}
+
+.bg-safe    {
+    background-color: #0E38B5;
+}
+
+.bg-submariner  {
+    background-color: #CCB2A3;
+}

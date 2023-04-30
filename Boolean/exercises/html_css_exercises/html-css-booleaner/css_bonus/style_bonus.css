@@ -1,0 +1,58 @@
+/* Header style */
+header {
+    background-image: url(../img/pattern.png);
+    background-color: blue;
+    width: 100%;
+    padding-left: 10%;
+}
+
+#main    {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Logo style */
+#logo   {
+    width: 30%;
+    margin-top: 8%;
+}
+
+/* Table rule style */
+
+/* Il border-collapse serve per definire lo stile delle */
+
+table   {
+    border-collapse: collapse; 
+}
+
+thead  {
+    background-color: blue;
+    color: white;
+}
+
+tbody   {
+    text-align: left;
+}
+
+#blue   {
+    background-color: aqua;
+}
+
+/* Marker */
+#mark1  {
+    background-color: yellow;
+}
+
+/* Image rules style */
+#img_bottom   {
+    position: relative;
+    text-align: left;
+    color: white;
+} 
+
+#title_img_position_1 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}

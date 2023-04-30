@@ -1,0 +1,240 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: small;
+}
+
+body {
+    background: linear-gradient(180deg, #009688 10%, #DADBD4 10%);
+    height: 100vh;
+}
+
+.container  {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    height: 90vh;
+    display: flex;
+}
+
+.side-bar-container {
+    flex: 0 0 calc((1/3)* 100%);
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-info-container {
+    padding: 0.5rem;
+    background-color: lightsalmon;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    color: grey;
+}
+
+.icons i {
+    margin: 0 5px;
+    font-size: 1.2rem;
+}
+
+.icons i:hover {
+    cursor: pointer;
+    color: lightgrey;
+}
+
+.user-info-container img {
+    width: 40px;
+    border-radius: 5rem;
+    margin-right: 5px;
+}
+
+.notifications-container {
+    background-color: lightblue;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.noti-icon i {
+    background-color: white;
+    color: lightblue;
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    padding: 8px;
+    margin-right: 5px;
+}
+
+.noti-text p {
+    font-weight: bold;
+}
+
+.noti-text a {
+    color: grey;
+}
+
+.search-container {
+    background-color: white;
+    color: gray;
+    padding: 1rem;
+}
+
+.search-container i {
+    margin: 0 1rem;
+}
+
+.contacts-container {
+    overflow-y: scroll;
+    flex: 1 0 0;
+}
+
+.contact {
+    background-color: white;
+    border: 1px solid black;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info img {
+    display: block;
+    width: 40px;
+    border-radius: 5rem;
+    margin-right: 5px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info p {
+    font-size: smaller;
+    color: grey;
+}
+
+.contact-in{
+    display: block;
+}
+
+.contact-out{
+    display: none;
+}
+
+.contact:hover {
+    background-color: #E9EBEB;
+    cursor: pointer;
+}
+
+.chat-container {
+    width: 100%;
+    flex: 1 0 calc((2/3)* 100%);
+    /* background-color: lightgreen; */
+    background-image: url(../img/mine.jpg);
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-chat-bar{
+    background-color: white;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat {
+    overflow-y: scroll;
+    flex: 1 0 0;
+}
+
+.write-bar  {
+    background-color: white;
+    padding: 1rem;
+}
+
+.write-bar i {
+    padding: 0.5rem;
+    margin: 0 1rem;
+}
+
+.chat {
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    position: relative;
+    padding: 1rem;
+    margin-bottom: 0.5rem  ;
+    flex: 0 1 auto;
+    min-width: 120px;
+    max-width:  40%;
+    border-radius: 0.5rem;
+    overflow-wrap: break-word;
+}
+
+.message-sent {
+    align-self: flex-end;
+    background-color: #D5F9BA;
+}
+
+.message-received {
+    align-self: flex-start;
+    background-color: white;
+}
+
+.message .send-date {
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.message .message-menu-toggler {
+    display: none;
+}
+
+.message .message-menu-toggler:hover {
+    cursor: pointer;
+}
+
+.message:hover .message-menu-toggler {
+    display: block;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+}
+
+.message .message-menu {
+    /*display: none;*/ /* v-show */
+    list-style: none;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5px grey;
+    position: absolute;
+    right: 0.5rem;
+    top: 1.5rem;
+}
+
+.message .message-menu li {
+    padding: 1rem;
+}
+
+.message .message-menu li:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+}

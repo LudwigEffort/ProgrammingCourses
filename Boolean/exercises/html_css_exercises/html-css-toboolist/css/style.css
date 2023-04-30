@@ -1,0 +1,167 @@
+/* Body */
+body    {
+    background-color: lightgrey;
+    font-family: 'JetBrains Mono';
+    font-size: 16pt;
+    margin: 0px;
+}
+
+/* Header */
+header  {
+    background-color: white;
+}
+
+.img_logo  {
+    width: 80px;
+    vertical-align: middle;
+}
+
+.title  {
+    display: inline;
+    vertical-align: middle;
+}
+
+/* Main */
+
+.bottom_rule    {
+    border-bottom: 3px solid lightgrey;
+    padding-bottom: 10px;
+}
+
+main    {
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.general_conteiner    {
+    margin-left: 20px;
+}
+
+hr  {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* Button in the top */
+.button_1   {
+    background-color: blue;
+    color: white;
+    padding: 2px;
+    border-style: solid;
+    width: 12px;
+    border-radius: 5px;
+    border-color: blue;
+    margin: auto;
+}
+
+.button_2   {
+    color: grey;
+    padding: 2px;
+    border-style: solid;
+    width: 12px;
+    border-radius: 5px;
+    border-color: grey;
+    margin: auto;
+}
+
+/* Check style */
+.check_done {
+    width: 15px;
+    vertical-align: middle;
+}
+
+.check_not_done {
+    width: 15px;
+    vertical-align: middle;
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h5  {
+    display: inline;
+    vertical-align: middle;
+}
+
+/* Tag editorial */
+.editorial  {
+    background-color: blue;
+    color: white;
+    padding: 2px;
+    border-style: solid;
+    width: 6px;
+    border-radius: 18px;
+    border-color: blue;
+    margin: auto;  
+    font-size: 8pt;
+}
+
+.goals  {
+    background-color: violet;
+    color: white;
+    padding: 2px;
+    border-style: solid;
+    width: 6px;
+    border-radius: 18px;
+    border-color: violet;
+    margin: auto;  
+    font-size: 8pt;
+}
+
+.recruiting  {
+    background-color: green;
+    color: white;
+    padding: 2px;
+    border-style: solid;
+    width: 6px;
+    border-radius: 18px;
+    border-color: green;
+    margin: auto;  
+    font-size: 8pt;
+}
+
+.mobile  {
+    background-color: orange;
+    color: white;
+    padding: 2px;
+    border-style: solid;
+    width: 6px;
+    border-radius: 18px;
+    border-color: orange;
+    margin: auto;  
+    font-size: 8pt;
+}
+
+.website  {
+    background-color: pink;
+    color: white;
+    padding: 2px;
+    border-style: solid;
+    width: 6px;
+    border-radius: 18px;
+    border-color: pink;
+    margin: auto;  
+    font-size: 8pt;
+}
+
+.sales  {
+    background-color: olive;
+    color: white;
+    padding: 2px;
+    border-style: solid;
+    width: 6px;
+    border-radius: 18px;
+    border-color: olive;
+    margin: auto;  
+    font-size: 8pt;
+}
