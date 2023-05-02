@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if_statements", "if_stateme
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logical_operators", "logical_operators\logical_operators.csproj", "{0E6F4C60-98E4-47A2-B628-E1BB5BD2B63D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loops", "loops\loops.csproj", "{C4FAE20C-C7CF-4340-8AF3-6463AD435C80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{0E6F4C60-98E4-47A2-B628-E1BB5BD2B63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E6F4C60-98E4-47A2-B628-E1BB5BD2B63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E6F4C60-98E4-47A2-B628-E1BB5BD2B63D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4FAE20C-C7CF-4340-8AF3-6463AD435C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4FAE20C-C7CF-4340-8AF3-6463AD435C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4FAE20C-C7CF-4340-8AF3-6463AD435C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4FAE20C-C7CF-4340-8AF3-6463AD435C80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
