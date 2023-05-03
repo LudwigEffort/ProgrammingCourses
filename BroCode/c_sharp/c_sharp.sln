@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loops", "loops\loops.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "number_guessing_game", "number_guessing_game\number_guessing_game.csproj", "{D4461C42-C2D0-4FB7-8E64-85BF96C12BC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rock_paper_scissor_game", "rock_paper_scissor_game\rock_paper_scissor_game.csproj", "{23E5F57C-8A5F-4CA4-939D-92BC628CA0D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{D4461C42-C2D0-4FB7-8E64-85BF96C12BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4461C42-C2D0-4FB7-8E64-85BF96C12BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4461C42-C2D0-4FB7-8E64-85BF96C12BC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23E5F57C-8A5F-4CA4-939D-92BC628CA0D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E5F57C-8A5F-4CA4-939D-92BC628CA0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E5F57C-8A5F-4CA4-939D-92BC628CA0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E5F57C-8A5F-4CA4-939D-92BC628CA0D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
