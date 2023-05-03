@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logical_operators", "logica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loops", "loops\loops.csproj", "{C4FAE20C-C7CF-4340-8AF3-6463AD435C80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "number_guessing_game", "number_guessing_game\number_guessing_game.csproj", "{D4461C42-C2D0-4FB7-8E64-85BF96C12BC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{C4FAE20C-C7CF-4340-8AF3-6463AD435C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4FAE20C-C7CF-4340-8AF3-6463AD435C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4FAE20C-C7CF-4340-8AF3-6463AD435C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4461C42-C2D0-4FB7-8E64-85BF96C12BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4461C42-C2D0-4FB7-8E64-85BF96C12BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4461C42-C2D0-4FB7-8E64-85BF96C12BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4461C42-C2D0-4FB7-8E64-85BF96C12BC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
