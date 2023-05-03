@@ -1,7 +1,6 @@
 ﻿// Number Guessing Game
 
-//Random random = new Random();
-Random random = new();
+Random random = new(); // alternativa a Random random = new Random();
 bool playAgain = true;
 int min = 1;
 int max = 100;
