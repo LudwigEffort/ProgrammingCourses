@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rock_paper_scissor_game", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculator_program", "calculator_program\calculator_program.csproj", "{2C412A90-7118-4731-9D0A-B69F8D2F6E41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrays", "arrays\arrays.csproj", "{6490EE42-9BC1-47A2-B088-A561AA0CDB6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{2C412A90-7118-4731-9D0A-B69F8D2F6E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C412A90-7118-4731-9D0A-B69F8D2F6E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C412A90-7118-4731-9D0A-B69F8D2F6E41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6490EE42-9BC1-47A2-B088-A561AA0CDB6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6490EE42-9BC1-47A2-B088-A561AA0CDB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6490EE42-9BC1-47A2-B088-A561AA0CDB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6490EE42-9BC1-47A2-B088-A561AA0CDB6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
