@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrays", "arrays\arrays.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "methods", "methods\methods.csproj", "{AF16BFE6-1EEF-4D71-BAEE-747AD98A22E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exception_handling", "exception_handling\exception_handling.csproj", "{87619B46-B274-4C48-AE9E-8DCC432A2AD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{AF16BFE6-1EEF-4D71-BAEE-747AD98A22E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF16BFE6-1EEF-4D71-BAEE-747AD98A22E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF16BFE6-1EEF-4D71-BAEE-747AD98A22E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87619B46-B274-4C48-AE9E-8DCC432A2AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87619B46-B274-4C48-AE9E-8DCC432A2AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87619B46-B274-4C48-AE9E-8DCC432A2AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87619B46-B274-4C48-AE9E-8DCC432A2AD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
