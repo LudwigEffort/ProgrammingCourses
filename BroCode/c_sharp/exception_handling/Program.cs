@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Linq.Expressions;
+using System;
 
 namespace MyFirstProgram
 {
@@ -12,20 +13,38 @@ namespace MyFirstProgram
             //? catch = catches and handles exceptions when they occur
             //? finally = always executes regardless if exception is caught or not
 
-            double x;
-            double y;
-            //double result;
+            try
+            {
+                int x;
+                int y;
+                //double result;
 
-            Console.WriteLine("Enter number 1: ");
-            x = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Enter number 1: ");
+                x = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Enter number 2: ");
-            y = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Enter number 2: ");
+                y = Convert.ToInt32(Console.ReadLine());
 
-            double result = x / y;
+                double result = x / y;
 
-            Console.WriteLine("Resutl: " + result);
-
+                Console.WriteLine("Resutl: " + result);
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine("Enter ONLY numbers PLEASE!");
+            }
+            catch (DivideByZeroException e)
+            {
+                Console.WriteLine("You can't divide by zero! IDIOT");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Something went wrong!");
+            }
+            finally
+            {
+                Console.WriteLine("Thanks for visiting!");
+            }
         }
     }
 }
