@@ -32,5 +32,5 @@ Console.WriteLine("Hello " + firstName + "" + lastName + "."); //? classic way
 Console.WriteLine("You are " + age + " years old.");
 */
 
-Console.WriteLine($"Hello {firstName} {lastName}");
+Console.WriteLine($"Hello {firstName} {lastName}"); //? string interpolation
 Console.WriteLine($"You are {age} years old.");
