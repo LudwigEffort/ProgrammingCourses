@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multidimensional_array", "m
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classes", "classes\classes.csproj", "{79850B37-2FF9-4314-8154-81017D837DE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "objects", "objects\objects.csproj", "{2EF0857E-A4C2-4E07-BE71-A409EC45C35E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +98,9 @@ Global
 		{79850B37-2FF9-4314-8154-81017D837DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79850B37-2FF9-4314-8154-81017D837DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79850B37-2FF9-4314-8154-81017D837DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EF0857E-A4C2-4E07-BE71-A409EC45C35E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF0857E-A4C2-4E07-BE71-A409EC45C35E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF0857E-A4C2-4E07-BE71-A409EC45C35E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF0857E-A4C2-4E07-BE71-A409EC45C35E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
