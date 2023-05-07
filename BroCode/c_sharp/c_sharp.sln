@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classes", "classes\classes.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "objects", "objects\objects.csproj", "{2EF0857E-A4C2-4E07-BE71-A409EC45C35E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "constructors", "constructors\constructors.csproj", "{F73A18CB-37C2-4E45-8D4A-C8246C23C627}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +104,9 @@ Global
 		{2EF0857E-A4C2-4E07-BE71-A409EC45C35E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EF0857E-A4C2-4E07-BE71-A409EC45C35E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EF0857E-A4C2-4E07-BE71-A409EC45C35E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F73A18CB-37C2-4E45-8D4A-C8246C23C627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F73A18CB-37C2-4E45-8D4A-C8246C23C627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F73A18CB-37C2-4E45-8D4A-C8246C23C627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F73A18CB-37C2-4E45-8D4A-C8246C23C627}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
