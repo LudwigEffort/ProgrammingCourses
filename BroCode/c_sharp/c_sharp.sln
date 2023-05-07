@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exception_handling", "excep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multidimensional_array", "multidimensional_array\multidimensional_array.csproj", "{D7BA9A91-F54C-4F28-A324-C78A22C83D1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classes", "classes\classes.csproj", "{79850B37-2FF9-4314-8154-81017D837DE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{D7BA9A91-F54C-4F28-A324-C78A22C83D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7BA9A91-F54C-4F28-A324-C78A22C83D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7BA9A91-F54C-4F28-A324-C78A22C83D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79850B37-2FF9-4314-8154-81017D837DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79850B37-2FF9-4314-8154-81017D837DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79850B37-2FF9-4314-8154-81017D837DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79850B37-2FF9-4314-8154-81017D837DE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
