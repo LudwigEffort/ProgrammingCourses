@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "modifier_keywords", "modifi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "overloaded_constructors", "overloaded_constructors\overloaded_constructors.csproj", "{ADBA8683-325A-48FD-AB51-C2CA67443E74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inheritance", "inheritance\inheritance.csproj", "{3385A19B-FA09-4BDB-9247-AA609061F52A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -120,5 +122,9 @@ Global
 		{ADBA8683-325A-48FD-AB51-C2CA67443E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADBA8683-325A-48FD-AB51-C2CA67443E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADBA8683-325A-48FD-AB51-C2CA67443E74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3385A19B-FA09-4BDB-9247-AA609061F52A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3385A19B-FA09-4BDB-9247-AA609061F52A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3385A19B-FA09-4BDB-9247-AA609061F52A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3385A19B-FA09-4BDB-9247-AA609061F52A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
