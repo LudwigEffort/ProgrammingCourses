@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "overloaded_constructors", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inheritance", "inheritance\inheritance.csproj", "{3385A19B-FA09-4BDB-9247-AA609061F52A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abstract_classes", "abstract_classes\abstract_classes.csproj", "{8D54E125-DC1C-4BE2-AB45-4BD2E886162F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "array_of_objects", "array_of_objects\array_of_objects.csproj", "{61AA6D40-74E7-4178-97B1-ED4E0599AA5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -126,5 +130,13 @@ Global
 		{3385A19B-FA09-4BDB-9247-AA609061F52A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3385A19B-FA09-4BDB-9247-AA609061F52A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3385A19B-FA09-4BDB-9247-AA609061F52A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D54E125-DC1C-4BE2-AB45-4BD2E886162F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D54E125-DC1C-4BE2-AB45-4BD2E886162F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D54E125-DC1C-4BE2-AB45-4BD2E886162F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D54E125-DC1C-4BE2-AB45-4BD2E886162F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61AA6D40-74E7-4178-97B1-ED4E0599AA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61AA6D40-74E7-4178-97B1-ED4E0599AA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61AA6D40-74E7-4178-97B1-ED4E0599AA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61AA6D40-74E7-4178-97B1-ED4E0599AA5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
