@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "method_overriding", "method
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToString_method", "ToString_method\ToString_method.csproj", "{AC1CDA5B-A4C6-413D-8FC2-A166A0AA9389}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "polymorphism", "polymorphism\polymorphism.csproj", "{2DC9D738-6CA7-41EA-9206-813898E786FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -156,5 +158,9 @@ Global
 		{AC1CDA5B-A4C6-413D-8FC2-A166A0AA9389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC1CDA5B-A4C6-413D-8FC2-A166A0AA9389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC1CDA5B-A4C6-413D-8FC2-A166A0AA9389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC9D738-6CA7-41EA-9206-813898E786FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC9D738-6CA7-41EA-9206-813898E786FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC9D738-6CA7-41EA-9206-813898E786FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC9D738-6CA7-41EA-9206-813898E786FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
