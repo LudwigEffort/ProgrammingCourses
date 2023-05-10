@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "auto_implemented_properties
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "enums", "enums\enums.csproj", "{4A3929A1-9F8D-442D-A583-5CC86DCB8C45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "generics", "generics\generics.csproj", "{72FD4969-50BC-4BAC-BA75-D3200A857305}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -192,5 +194,9 @@ Global
 		{4A3929A1-9F8D-442D-A583-5CC86DCB8C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A3929A1-9F8D-442D-A583-5CC86DCB8C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A3929A1-9F8D-442D-A583-5CC86DCB8C45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72FD4969-50BC-4BAC-BA75-D3200A857305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72FD4969-50BC-4BAC-BA75-D3200A857305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72FD4969-50BC-4BAC-BA75-D3200A857305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72FD4969-50BC-4BAC-BA75-D3200A857305}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
