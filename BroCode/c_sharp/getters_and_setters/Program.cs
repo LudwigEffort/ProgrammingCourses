@@ -29,7 +29,7 @@ namespace getters_and_setters
 
             public Car(int speed)
             {
-                Speed = speed;
+                this.Speed = speed;
             }
 
             public int Speed
