@@ -25,6 +25,12 @@ public class CategoryController : Controller
         return View(objCategoryList);
     }
 
+    //? GET
+    public IActionResult Create()
+    {
+        return View();
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
