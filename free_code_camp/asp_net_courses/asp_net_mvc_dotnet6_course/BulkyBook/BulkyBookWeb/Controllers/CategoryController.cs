@@ -31,14 +31,18 @@ public class CategoryController : Controller
         return View();
     }
 
-    //? Post
+    //? POST
     [HttpPost]
     [ValidateAntiForgeryToken]
     public IActionResult Create(Category obj)
     {
-        _db.Categories.Add(obj);
-        _db.SaveChanges();
-        return RedirectToAction("Index");
+        if (ModelState.IsValid)
+        {
+            _db.Categories.Add(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+        return View(obj);
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
