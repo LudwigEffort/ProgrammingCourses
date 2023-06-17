@@ -73,12 +73,26 @@ public class BreakfastsController : Controller
     [HttpPut("{id:guid}")]
     public IActionResult UpsertBreakfast(Guid id, UpsertBreakfastRequest request)
     {
-        return Ok(request);
+        var breakfast = new Breakfast(
+                    id,
+                    request.Name,
+                    request.Description,
+                    request.StartDataTime,
+                    request.EndDataTime,
+                    DateTime.UtcNow,
+                    request.Savory,
+                    request.Sweet);
+
+        _breakfastService.UpsertBreakfast(breakfast);
+
+        // TODO: return 201 if a new breakfast was created
+        return NoContent();
     }
 
     [HttpDelete("{id:guid}")]
     public IActionResult DeleteBreakfast(Guid id)
     {
-        return Ok(id);
+        _breakfastService.DeleteBreakfast(id);
+        return NoContent();
     }
 }
