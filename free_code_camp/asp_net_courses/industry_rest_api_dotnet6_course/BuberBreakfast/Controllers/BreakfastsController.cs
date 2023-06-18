@@ -5,6 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using BuberBreakfast.Contracts.Breakfast;
 using BuberBreakfast.Models;
+using BuberBreakfast.ServiceErrors;
+using ErrorOr;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -55,7 +57,14 @@ public class BreakfastsController : Controller
     [HttpGet("{id:guid}")]
     public IActionResult GetBreakfast(Guid id)
     {
-        Breakfast breakfast = _breakfastService.GetBreakfast(id);
+        ErrorOr<Breakfast> getBreakfastResult = _breakfastService.GetBreakfast(id);
+
+        if (getBreakfastResult.IsError && getBreakfastResult.FirstError == Errors.Breakfast.NotFound)
+        {
+            return NotFound();
+        }
+
+        var breakfast = getBreakfastResult.Value;
 
         var response = new BreakfastResponse(
                             breakfast.Id,

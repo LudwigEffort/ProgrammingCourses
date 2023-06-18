@@ -1,4 +1,4 @@
-@id=0179144b-ed5b-4ba3-9d97-33ca6c58734d
+@id=6e47012e-a603-4a27-83ef-34eddea62cbf
 
 GET https://localhost:7212/breakfasts/{{id}}
 //Content-Type: application/json
