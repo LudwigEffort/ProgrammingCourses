@@ -12,9 +12,7 @@ using Microsoft.Extensions.Logging;
 
 namespace BuberBreakfast.Controllers;
 
-[ApiController]
-[Route("[controller]")]
-public class BreakfastsController : Controller
+public class BreakfastsController : ApiController
 {
     private readonly IBreakfastService _breakfastService;
 
@@ -59,6 +57,11 @@ public class BreakfastsController : Controller
     {
         ErrorOr<Breakfast> getBreakfastResult = _breakfastService.GetBreakfast(id);
 
+        return getBreakfastResult.Match(
+            breakfast => Ok(MapBreakfastResponse(breakfast)),
+            errors => Problem(errors));
+
+        /*
         if (getBreakfastResult.IsError && getBreakfastResult.FirstError == Errors.Breakfast.NotFound)
         {
             return NotFound();
@@ -66,17 +69,23 @@ public class BreakfastsController : Controller
 
         var breakfast = getBreakfastResult.Value;
 
-        var response = new BreakfastResponse(
-                            breakfast.Id,
-                            breakfast.Name,
-                            breakfast.Description,
-                            breakfast.StartDateTime,
-                            breakfast.EndDateTime,
-                            breakfast.LastModifiedDateTime,
-                            breakfast.Savory,
-                            breakfast.Sweet);
+        BreakfastResponse response = MapBreakfastResponse(breakfast);
 
         return Ok(response);
+        */
+    }
+
+    private static BreakfastResponse MapBreakfastResponse(Breakfast breakfast)
+    {
+        return new BreakfastResponse(
+                                    breakfast.Id,
+                                    breakfast.Name,
+                                    breakfast.Description,
+                                    breakfast.StartDateTime,
+                                    breakfast.EndDateTime,
+                                    breakfast.LastModifiedDateTime,
+                                    breakfast.Savory,
+                                    breakfast.Sweet);
     }
 
     [HttpPut("{id:guid}")]
